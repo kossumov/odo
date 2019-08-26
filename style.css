@@ -1979,3 +1979,10 @@ body.app_version .app_iphone_01 img {
 #footer-widgets .widget.widget_socials {
     margin-top: 25px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #about {
+        padding-top: 0px;
+    }
+}
