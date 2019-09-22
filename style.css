@@ -1986,3 +1986,12 @@ body.app_version .app_iphone_01 img {
         padding-top: 0px;
     }
 }
+
+.gal-item {
+    transition: transform .2s; /* Animation */
+}
+
+.gal-item:hover {
+    cursor: pointer;
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
